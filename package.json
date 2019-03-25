@@ -1,21 +1,31 @@
 {
-  "name": "facial_recognition_database",
-  "version": "1.0.0",
-  "description": "Connect and communicate with the MongoDB database.",
-  "main": "GETMethod.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "node-js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "10.x"
   },
-  "author": "",
-  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
   "dependencies": {
-    "cassandra-driver": "^4.0.0",
-    "express": "^4.16.4",
-    "express-cassandra": "^2.3.0",
-    "image-to-base64": "^2.0.1",
-    "mongodb": "^3.1.13",
-    "mongoose": "^5.4.19",
-    "mysql": "^2.16.0",
-    "request": "^2.88.0"
-  }
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
